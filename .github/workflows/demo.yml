@@ -28,7 +28,7 @@ jobs:
       - name: Upload files
         uses: actions/upload-artifact@v3
         with:
-          name: dis-files
+          name: dis-files2
           path: |
             dist
             package.json
